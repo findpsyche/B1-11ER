@@ -11,3 +11,15 @@ B1_root/
 │   └── generate_dataset.py # 数据生成主脚本  
 └── utils/  
     └── data_utils.py       # 数据格式转换、加载工具  
+
+data: https://huggingface.co/datasets/ai-habitat/ycb  
+#YCB Object Set  
+data log  
+├── configs  
+|   ├── *.object_config.json  
+├── meshes  
+|   ├── */*.glb      - BASIS compressed and optimized for simulation  
+|   ├── */*.glb.orig - uncompressed raw assets  
+├── collison_meshes  
+|   ├── *.glb        - convex decomposition collision proxies  
+├── ycb.scene_dataset_config.json  
