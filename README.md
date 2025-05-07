@@ -34,16 +34,3 @@ Sim-to-Real 迁移与真实机器人实验 (环境: 真实机器人平台 + 控�
 传感器设计指导分析 (环境: 工作站/笔记本)  
   
     分析实验数据和模型，提取设计低成本传感器的关键信息。  
-B1_root/  
-├── simulator/  
-│   ├── sim_env.py          # 仿真环境初始化、加载、步进  
-│   ├── robot_control.py    # 机器人运动控制接口 (IK, joint control)  
-│   ├── object_manager.py   # 物体生成、放置、属性管理  
-│   ├── tacchi_interface.py # Tacchi API 调用、数据读取  
-│   └── data_recorder.py    # 数据记录与保存  
-├── data/  
-│   └── raw/                # 原始仿真数据存储  
-├── scripts/  
-│   └── generate_dataset.py # 数据生成主脚本  
-└── utils/  
-    └── data_utils.py       # 数据格式转换、加载工具  
